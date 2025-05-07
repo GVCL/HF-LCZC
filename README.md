@@ -14,9 +14,12 @@ ls data/
 
   attent    feat  GF    hybrid    nofusion
 
-a)model-fusion-feature.py : Feature level fusion
-b)model-fusion-hybrid.py  : Hybrid level fusion (Pixel + Feature)
-c)model-fusion-hybrid-GaussianSmooth.py : Gaussian filtered smoothing integrated with Hybrid level fusion
+a)model-fusion-feature.py : Feature level fusion      
+
+b)model-fusion-hybrid.py  : Hybrid level fusion (Pixel + Feature)    
+
+c) model-fusion-hybrid-GaussianSmooth.py: Gaussian filtered smoothing integrated with Hybrid level fusion  
+
 d)model-fusion-hybrid-attention.py : Hybrid level fusion coupled with attention mechnanisms
 ~
 ~
