@@ -6,16 +6,25 @@ This repository contains a folder 'Model'. The folder contains different fusion 
 The final classification output from the Sen2LCZ model is uploaded here https://huggingface.co/datasets/ancythomas/output/tree/main.  This output has the classification output obtained from the fused Sentinel-1 and Sentinel-2 input from the Sen2LCZ42 dataset using different fusion models.   
 
 Model/ 
--- model-fusion-feature.py           
+
+-- model-fusion-feature.py  
+
 -- model-fusion-hybrid-GaussianSmooth.py
+
 -- model-fusion-hybrid-attention.py  
+
 -- model-fusion-hybrid.py
 
 output/
+
 -- _32_weights.best_nofusion.hdf5
+
 -- _32_weights.best_feature.hdf5
+
 -- _32_weights.best_hybrid.hdf5
+
 -- _32_weights.best_attention.hdf5
+
 --_32_weights.best_GF.hdf5
 
 
