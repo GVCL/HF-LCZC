@@ -29,6 +29,7 @@ output/
 
 
 The models accomplish the following goals:
+
 a) model-fusion-feature.py: Feature-level fusion      
 
 b) model-fusion-hybrid.py: Hybrid-level fusion (Pixel + Feature)    
